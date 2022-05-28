@@ -8,4 +8,5 @@
 - TODO: 
   - batch url upload (or loop wtih current single-upload function)
   - look into discord integration
-  - 
+  - option to choose local or remote upload
+  - while loop / input validation
