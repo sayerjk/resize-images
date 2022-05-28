@@ -1,4 +1,4 @@
-# Online image resizer
+## Online image resizer
 
 - resize.py will prompt the user for an image's url 
 - the following prompt asks for scale to reduce by (0.0 < scale < 1.0)
