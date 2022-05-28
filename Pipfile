@@ -7,6 +7,7 @@ name = "pypi"
 ipykernel = "*"
 pillow = "*"
 glob2 = "*"
+requests = "*"
 
 [dev-packages]
 
