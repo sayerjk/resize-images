@@ -35,39 +35,3 @@ print('Save photo before closing otherwise it will be lost.')
 
 web_image_01 = web_image_01.resize(new_size)
 web_image_01.show()
-
-
-
-#  ============================================================
-
-# # for local upload
-# # gather image characteristics into image objects
-# # testing here with single image
-# img_path = r"images\39530001.JPG"
-# im = Image.open(img_path)
-
-# print(f'{im.format = }')
-# print(f'{im.size = }')
-# print(f'{im.mode = }')
-# im.show()
-
-# Make function to get pixel dimensions halved from im.size tuple
-
-# half_size = [int(j * .33) for i,j in enumerate(web_image_01.size)]
-# half_size = tuple(half_size)
-# half_size
-
-# image_list = []
-# resized_image = []
-
-# for filename in glob.glob('images/*.JPG'):
-#     print(f'Current {filename = }')
-#     img = Image.open(filename)
-#     image_list.append(img)
-
-# for image in image_list:
-#     image = image.resize(half_size)
-#     resized_image.append(image)
-
-# for i,new in enumerate(resized_image):
-#     new.save(f'images/rescaled_images/rs_{i+1}.JPG')
